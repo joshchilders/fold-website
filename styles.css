@@ -1,0 +1,146 @@
+nav {
+    background-color: black;
+}
+
+.navbar a {
+    color: white;
+    transition: transform 0.5s;
+}
+
+.navbar a:hover {
+    color: lightgray;
+    transform: scale(1.05);
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.dropdown-menu a {
+    color: black;
+}
+
+.nav-item {
+    margin: 0 15px;
+}
+
+body {
+    padding-top: 56px;
+}
+
+.page-top {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+    padding-top: 120px;
+    padding-bottom: 75px;
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    text-align: center;
+    align-items: center;
+    letter-spacing: .6vw;
+}
+
+.about {
+    font-family: 'Raleway', sans-serif;
+    background-color: antiquewhite;
+    padding: 140px;
+}
+
+.about .col {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.find-text > h2 {
+    margin: 20px auto;
+    letter-spacing: 8px;
+    color: #F35B37;
+}
+
+.find-text > h2:first-of-type {
+    margin-top: 0;
+}
+
+.info-text > h4 {
+    font-style: italic;
+}
+
+.info-text > h2 {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+.about-link {
+    margin-top: 30px;
+}
+
+.about-link a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 30px;
+    margin-top: 20px;
+}
+
+.upcoming-events {
+    background-image: url("https://static.wixstatic.com/media/993cab_5e1b4f0011df441790d92dc37160c0eb~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_2543,h_1198,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/993cab_5e1b4f0011df441790d92dc37160c0eb~mv2_d_6000_4000_s_4_2.jpg");
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.upcoming-events > h1 {
+    color: white;
+    letter-spacing: 4px;
+}
+
+.upcoming-events .card {
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.5s;
+}
+
+.upcoming-events .card > img {
+    width: 640px;
+    height: auto;
+    transform: translateX(-320px);
+}
+
+.upcoming-events .card-body > a {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.upcoming-events .card:hover {
+    transform: scale(1.05);
+}
+
+.footer {
+    font-family: 'Raleway', sans-serif;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+#address {
+    margin-bottom: 2px;
+}
+
+#email {
+    margin-top: 20px;
+}
+
+.social-links {
+    margin-top: 40px;
+}
+
+.social-links > a {
+    margin-left: 10px;
+    margin-right: 10px;
+}
