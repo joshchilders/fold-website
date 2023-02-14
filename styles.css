@@ -8,8 +8,8 @@ nav {
 }
 
 .navbar a:hover {
-    color: lightgray;
-    transform: scale(1.05);
+    color: white;
+    transform: scale(1.1);
 }
 
 .navbar-brand {
@@ -19,6 +19,10 @@ nav {
 
 .dropdown-menu a {
     color: black;
+}
+
+.dropdown-toggle::after {
+    content: none;
 }
 
 .nav-item {
@@ -78,7 +82,7 @@ body {
     margin-top: 30px;
 }
 
-.about-link a {
+.about-link a{
     color: white;
     text-decoration: none;
     padding: 10px 30px;
@@ -117,6 +121,19 @@ body {
 
 .upcoming-events .card:hover {
     transform: scale(1.05);
+}
+
+.contact-form > input {
+    display: block;
+    margin: 10px 0;
+}
+
+.contact-form > input:first-of-type {
+    margin-top: 0;
+}
+
+#name-input, #email-input {
+    width: 427px;
 }
 
 .footer {
